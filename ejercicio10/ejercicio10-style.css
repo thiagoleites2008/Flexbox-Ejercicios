@@ -1,1 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.contenedor {
+    display: flex;
+}
+
+.cajaprimero {
+    order: 2;
+}
+
+.cajatercero {
+    order: -1;
+}
