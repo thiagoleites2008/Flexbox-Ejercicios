@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 600px;
+    display: flex;
+    background-color: red;
+}
+
+.cajaa{
+    flex-grow: 1;
+}
+
+.cajab {
+    flex-grow: 2;
+}
+
+.cajac {
+    flex-grow: 1;
+}

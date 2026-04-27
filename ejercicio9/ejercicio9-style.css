@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 600px;;
+}
+
+.caja {
+    background-color: #3498db;
+    color: white;
+    width: 150px;
+    height: 150px;
+}
