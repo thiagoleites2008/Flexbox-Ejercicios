@@ -1,1 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "d-din exp", sans-serif;
+}
 
+body {
+    background-image: url("imgs/fondo.png");
+    background-size: cover;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 40px;
+    background-color: #d7dfe5;
+    width: 800px;
+    height: 600px;
+    border-radius: 0 35px 0 0;
+}
+
+.msgajeno{
+    background-color: #fbfbfd;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    max-width: 90%;
+    align-self: flex-start;
+    border-radius: 0 10px 10px 10px;
+    box-shadow: -1px 2px 0px rgba(136, 136, 136, 0.589);
+}
+
+.msgpropio{
+    background-color: #d2b98b;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    max-width: 90%;
+    align-self: flex-end;
+    border-radius: 10px 0 10px 10px;
+    box-shadow: 1px 2px 0px rgba(136, 136, 136, 0.589);
+}
+
+.nombrePerfil{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+hr.separador{
+    border: none;
+    border-top: 1px solid #a9afb4;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.circuloAjeno{
+    border-radius: 50%;
+    background-color: gray;
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+}
+
+.circuloPropio{
+    border-radius: 50%;
+    background-color: gray;
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+}
+
+.persona1{
+    display: flex;
+    align-self: flex-start;
+    gap: 10px;
+}
+
+.persona2{
+    display: flex;
+    align-self: flex-end;
+    gap: 10px;
+}
+
+.persona2 .circuloPropio{
+    order: 1
+}
+
+#comienzo{
+    margin-top: 50px;
+}

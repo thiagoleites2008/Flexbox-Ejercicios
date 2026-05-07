@@ -1,1 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+}
+
+button{
+    margin-top: auto;
+}

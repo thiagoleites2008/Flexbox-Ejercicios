@@ -1,1 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.pagina {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: #353535;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.cuerpo {
+    flex: 1;
+    display: flex;
+}
+
+footer {
+    width: 100%;
+    background-color: #353535;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.izq{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: #ff8c8c;
+    align-items: center;
+}
+
+.der{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: #ff8c8c;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    background-color: #e9f79d;
+    justify-content: center;
+    align-items: center;
+}
